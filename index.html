@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholar</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- Animation.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- WOW.js -->
+    <link rel="stylesheet" href="CSS/animate.css">
+    
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Schibsted+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Start Navigation -->
+    <div class="Navigation background-header wow slideInDown">
+        <div class="navbar navbar-expand-sm">
+            <div class="container-xl container-fluid">
+                
+                <!-- Logo -->
+                <a href="#" class="logo navbar-brand">
+                    <h1 class="text-uppercase text-white">Scholar</h1>
+                </a>
+                
+                <!-- Search -->
+                <form action="" class="search me-auto ps-3 position-relative d-none d-lg-block">
+                    <input class="rounded-pill p-2 ps-4" type="text" placeholder="Type Somethings">
+                    <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+                </form>
+
+                <!-- Menu -->
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <div class="xMenu container navbar-toggler-icon d-block d-md-none">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                </button>
+            
+            <div class="collapse navbar-collapse list-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto list-unstyled">
+                        <li class="nav-item pe-md-2 ps-md-2 pe-1 ps-1 active-nav">
+                            <a href="#Home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item pe-md-2 ps-md-2 pe-1 ps-1 ">
+                            <a href="#services" class="nav-link">Service</a>
+                        </li>
+                        <li class="nav-item pe-md-2 ps-md-2 pe-1 ps-1 ">
+                            <a href="#courses" class="nav-link">Courses</a>
+                        </li>
+                        <li class="nav-item pe-md-2 ps-md-2 pe-1 ps-1 ">
+                            <a href="#team" class="nav-link">Team</a>
+                        </li>
+                        <li class="nav-item pe-md-2 ps-md-2 pe-1 ps-1 ">
+                            <a href="#Events" class="nav-link">Events</a>
+                        </li>
+                        <li class="nav-item pe-md-2 ps-md-2 pe-1 ps-1 ">
+                            <a href="#contact" class="nav-link last-link">Register Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Navigation -->
+    
+    <!-- Start Header -->
+    <div class="select header pe-sm-3 ps-sm-4" id="Home">
+        <!-- Images -->
+        <div id="carouselExampleControls" class="slides carousel slide me-sm-5 ms-sm-5 wow fadeInUpBig" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Item one -->
+                <div class="carousel-item active">
+                    <div class="text">
+                        <p class="text-uppercase text-light mb-5 rounded-pill">Our courses</p>
+                        <h1 class="text-white">With Scholar Teachers, Everything Is Easier</h1>
+                        <p class="text-light mt-4">
+                            Scholar is free CSS template designed by TemplateMo for online educational related websites. 
+                            This layout is based on the famous Bootstrap v5.3.0 framework.
+                        </p>
+                        <div class="demo mt-5 d-flex align-items-center">
+                            <a href="#" class="btn rounded-pill bg-white p-3 pe-4 ps-4 ">Request Demo</a>
+                            <a href="#" class="text-decoration-none align-items-center d-flex ms-4">
+                                <i class="fa-solid fa-play rounded-circle p-3"></i>
+                                What's the Scholar?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item Two -->
+                <div class="carousel-item">
+                    <div class="text">
+                        <p class="text-uppercase text-light mb-5 rounded-pill">Best Result</p>
+                        <h1 class="text-white">Get the best result out of your effort</h1>
+                        <p class="text-light mt-4">
+                            You are allowed to use this template for any educational or commercial purpose. 
+                            You are not allowed to re-distribute the template ZIP file on any other website.
+                        </p>
+                        <div class="demo mt-5 d-flex align-items-center">
+                            <a href="#" class="btn rounded-pill bg-white p-3 pe-4 ps-4 ">Request Demo</a>
+                            <a href="#" class="text-decoration-none align-items-center d-flex ms-4">
+                                <i class="fa-solid fa-play rounded-circle p-3"></i>
+                                What's the Scholar?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item Three -->
+                <div class="carousel-item">
+                    <div class="text">
+                        <p class="text-uppercase text-light mb-5 rounded-pill">Online Learning</p>
+                        <h1 class="text-white">Online Learning helps you save the time</h1>
+                        <p class="text-light mt-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod temporious incididunt ut labore et dolore magna aliqua suspendisse.
+                        </p>
+                        <div class="demo mt-5 d-flex align-items-center">
+                            <a href="#" class="btn rounded-pill bg-white p-3 pe-4 ps-4 ">Request Demo</a>
+                            <a href="#" class="text-decoration-none align-items-center d-flex ms-4">
+                                <i class="fa-solid fa-play rounded-circle p-3"></i>
+                                What's the Scholar?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Arrows -->
+        <div class="icon-arrows mt-2 d-flex d-lg-grid">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <i class="fa-solid fa-chevron-left rounded-circle p-2"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <i class="fa-solid fa-chevron-right rounded-circle p-2 ms-3 ms-lg-0"></i>
+            </button>
+        </div>
+    </div>
+    <!-- End Header -->
+    
+    <!-- Start Services -->
+    <div class="select services mb-5" id="services">
+        <div class="container-xl">
+            <div class="row">
+                <div class="wow fadeInLeftBig col-lg-4 col-md-6">
+                    <div class="box position-relative">
+                        <div class="icon-box rounded-circle">
+                            <img src="images/service-01.png" alt="service-01">
+                        </div>
+                        <div class="main">
+                            <h3 class="mb-3">Online Degrees</h3>
+                            <p class="mb-4">Whenever you need free templates in HTML CSS, 
+                                you just remember TemplateMo website.
+                            </p>
+                            <a type="text" class="btn rounded-pill">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInDownBig col-lg-4 col-md-6">
+                    <div class="box position-relative">
+                        <div class="icon-box rounded-circle">
+                            <img src="images/service-02.png" alt="service-01">
+                        </div>
+                        <div class="main">
+                            <h3 class="mb-3">Online Degrees</h3>
+                            <p class="mb-4">Whenever you need free templates in HTML CSS, 
+                                you just remember TemplateMo website.
+                            </p>
+                            <a type="text" class="btn rounded-pill">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeInRightBig col-lg-4 col-md-6">
+                    <div class="box position-relative">
+                        <div class="icon-box rounded-circle">
+                            <img src="images/service-03.png" alt="service-01">
+                        </div>
+                        <div class="main">
+                            <h3 class="mb-3">Online Degrees</h3>
+                            <p class="mb-4">Whenever you need free templates in HTML CSS, 
+                                you just remember TemplateMo website.
+                            </p>
+                            <a type="text" class="btn rounded-pill">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    
+    <!-- Start About -->
+    <div class="about">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <div class="wow fadeInLeftBig box-q col-lg-6">
+                    <div class="questions mb-3">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h3>Where shall we begin?</h3>
+                            <div class="icon-q">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="answer">
+                            Dolor <strong>almesit amet</strong>,consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        </div>
+                    </div>
+                    <div class="questions mb-3">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h3>How do we work together?</h3>
+                            <div class="icon-q">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="answer">
+                            Dolor <strong>almesit amet</strong>,consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        </div>
+                    </div>
+                    <div class="questions mb-3">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h3>Why SCHOLAR is the best?</h3>
+                            <div class="icon-q">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="answer">
+                            There are more than one hundred responsive HTML templates to choose from 
+                            <strong>TemplateMo</strong>  website. You can browse by different tags or categories.
+                            
+                        </div>
+                    </div>
+                    <div class="questions">
+                        <div class="question d-flex justify-content-between align-items-center">
+                            <h3>Do we get the best support?</h3>
+                            <div class="icon-q">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="answer">
+                            You can also search on Google with specific keywords such as <code>templatemo business templates, templatemo gallery templates, admin dashboard templatemo, 3-column templatemo, etc</code> .
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="wow fadeInRightBig about-text col-lg-6">
+                    <div class="box">
+                        <p class="text-uppercase fw-bold">About Us</p>
+                        <h3>What Make Us The Best Academy Online?</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid risus commodo.
+                        </p>
+                        <a href="#" class="btn rounded-pill">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    
+    <!-- Start Courses -->
+    <div class="select courses text-center mb-5" id="courses">
+        <div class="container">
+            <div class="title wow fadeInUpBig">
+                <h2 class="text-uppercase mb-4">latest courses</h2>
+                <h3 class="text-capitalize mb-4">latest courses</h3>
+            </div>
+            <div class="nav-courses mb-5 wow fadeInUpBig">
+                <ul class="row list-unstyled d-flex justify-content-center rounded-pill">
+                    <li class="active-course col-lg-3 col-md-6">Show All</li>
+                    <li class="col-lg-3 col-md-6">Webdesign</li>
+                    <li class="col-lg-3 col-md-6">Development</li>
+                    <li class="col-lg-3 col-md-6">Wordpress</li>
+                </ul>
+            </div>
+
+            <div class="section-courses text-start">
+                <div class="row">
+                    <div class="wow animate__animated animate__zoomIn section col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="bg position-relative">
+                                <h4 class="text-uppercase">Webdesign</h4>
+                                <p class="price">
+                                    <sup>$</sup>160
+                                </p>
+                            </div>
+                            <div class="title-course">
+                                <h4>Stella Blair</h4>
+                                <p>Learn Web Design</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__zoomIn section col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="bg position-relative">
+                                <h4 class="text-uppercase">Development</h4>
+                                <p class="price">
+                                    <sup>$</sup>340
+                                </p>
+                            </div>
+                            <div class="title-course">
+                                <h4>Cindy Walker</h4>
+                                <p>Web Development Tips</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__zoomIn section col-lg-4  col-md-6">
+                        <div class="box">
+                            <div class="bg position-relative">
+                                <h4 class="text-uppercase">Wordpress</h4>
+                                <p class="price">
+                                    <sup>$</sup>640
+                                </p>
+                            </div>
+                            <div class="title-course">
+                                <h4>David Hutson</h4>
+                                <p>Latest Web Trends</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__zoomIn section col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="bg position-relative">
+                                <h4 class="text-uppercase">Development</h4>
+                                <p class="price">
+                                    <sup>$</sup>450
+                                </p>
+                            </div>
+                            <div class="title-course">
+                                <h4>Stella Blair</h4>
+                                <p>Online Learning Steps</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__zoomIn section col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="bg position-relative">
+                                <h4 class="text-uppercase">Wordpress</h4>
+                                <p class="price">
+                                    <sup>$</sup>320
+                                </p>
+                            </div>
+                            <div class="title-course">
+                                <h4>Sophia Rose</h4>
+                                <p>Be a WordPress Master</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__zoomIn section col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="bg position-relative">
+                                <h4 class="text-uppercase">Webdesign</h4>
+                                <p class="price">
+                                    <sup>$</sup>240
+                                </p>
+                            </div>
+                            <div class="title-course">
+                                <h4>David Hutson</h4>
+                                <p>Full Stack Developer</p> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Courses -->
+
+    <!-- Start Rates -->
+    <div class="rates wow fadeInLeftBig">
+        <div class="container">
+            <div class="row pe-2">
+                <div class="box col-lg-3 col-md-6">
+                    <div class="text mb-5 mb-lg-0">
+                        <h2 class="count" data-target="150">0+</h2>
+                        <p>Happy Students</p>
+                    </div>
+                </div>
+                <div class="box col-lg-3 col-md-6">
+                    <div class="text mb-5 mb-lg-0">
+                        <h2 class="count" data-target="804">0+</h2>
+                        <p>Course hour</p>
+                    </div>
+                </div>
+                <div class="box col-lg-3 col-md-6">
+                    <div class="text mb-5 mb-lg-0">
+                        <h2 class="count" data-target="50">0+</h2>
+                        <p>Employed Students</p>
+                    </div>
+                </div>
+                <div class="box col-lg-3 col-md-6">
+                    <div class="text mb-5 mb-lg-0">
+                        <h2 class="count" data-target="15">0+</h2>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Rates -->
+
+    <!-- Start Teams -->
+    <div class="select team" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 wow animate__backInLeft">
+                    <div class="person">
+                        <img src="images/member-01.jpg" alt="member-01">
+                        <div class="details text-center">
+                            <h2>UX Teachers</h2>
+                            <h3>Sophia Rose</h3>
+                            <div class="contact">
+                                <ul class="list-unstyled d-flex justify-content-center mt-4">
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow animate__backInLeft">
+                    <div class="person">
+                        <img src="images/member-02.jpg" alt="member-01">
+                        <div class="details text-center">
+                            <h2>Graphic Teacher</h2>
+                            <h3>Cindy Walker</h3>
+                            <div class="contact">
+                                <ul class="list-unstyled d-flex justify-content-center mt-4">
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow animate__backInRight">
+                    <div class="person">
+                        <img src="images/member-03.jpg" alt="member-01">
+                        <div class="details text-center">
+                            <h2>Full Stack Master</h2>
+                            <h3>David Hutson</h3>
+                            <div class="contact">
+                                <ul class="list-unstyled d-flex justify-content-center mt-4">
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow animate__backInRight">
+                    <div class="person">
+                        <img src="images/member-04.jpg" alt="member-01">
+                        <div class="details text-center">
+                            <h2>Digital Animator</h2>
+                            <h3>Stella Blair</h3>
+                            <div class="contact">
+                                <ul class="list-unstyled d-flex justify-content-center mt-3">
+                                    <li class="me-2">
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    </li>
+                                    <li class="me-2">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Teams -->
+
+    <!-- Start Opinion -->
+    <div class="opinion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 wow fadeInLeftBig">
+                    <div id="carouselControls" class="carousel slide position-relative" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="item">
+                                    <p>“Please tell your friends or collegues about TemplateMo website. 
+                                        Anyone can access the website to download free templates. Thank you for visiting.”
+                                    </p>
+                                </div>
+                                <div class="auther d-flex align-items-center">
+                                    <img src="images/member-01.jpg" alt="">
+                                    <div class="name">
+                                        <p>Full Stack Master</p>
+                                        <h3>Claude David</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="item">
+                                    <p>
+                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Quis ipsum suspendisse ultrices gravid.”                                    
+                                    </p>
+                                </div>
+                                <div class="auther  d-flex align-items-center">
+                                    <img src="images/member-03.jpg" alt="">
+                                    <div class="name">
+                                        <p>UI Expert</p>
+                                        <h3>Thomas Jefferson</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="item">
+                                    <p>“Scholar is free website template provided by TemplateMo for educational related websites. 
+                                        This CSS layout is based on Bootstrap v5.3.0 framework.”
+                                    </p>
+                                </div>
+                                <div class="auther d-flex align-items-center">
+                                    <img src="images/member-04.jpg" alt="">
+                                    <div class="name">
+                                        <p>Digital Animator</p>
+                                        <h3>Stella Blair</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Arrows -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                                <i class="fa-solid fa-chevron-left rounded-circle p-2"></i>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                                <i class="fa-solid fa-chevron-right rounded-circle p-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 wow fadeInRightBig">
+                    <div class="aboutUs ms-0 ms-lg-4">
+                        <p class="text-uppercase">Testimonials</p>
+                        <h2>What They Say About Us?</h2>
+                        <p>
+                            You can search free CSS templates on Google using different keywords such as templatemo portfolio,
+                            templatemo gallery, templatemo blue color, etc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Opinion -->
+
+    <!-- Start Events -->
+    <div class="select events" id="Events">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-6 col-sm-12 wow animate__zoomInLeft">
+                    <div class="box row align-items-center">
+                        <div class="photo-event col-lg-3 col-sm-12">
+                            <img src="images/event-01.jpg" alt="">
+                        </div>
+                        <div class="content col-lg-8 col-sm-12">
+                            <div class="row align-items-center">
+                                <div class="title-event col-lg-4">
+                                    <p class="text-uppercase">Web design</p>
+                                    <h3>UI Best Practices</h3>
+                                </div>
+                                <div class="info-event col-lg-8">
+                                    <ul class="list-unstyled d-flex justify-content-between me-lg-5 me-md-1">
+                                        <li class="">
+                                            <h5>Date:</h5>
+                                            <p>16 Feb 2023</p>
+                                        </li>
+                                        <li class="">
+                                            <h5>Duration:</h5>
+                                            <p>22 Hours</p>
+                                        </li>
+                                        <li class="">
+                                            <h5>Price:</h5>
+                                            <p>$120</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="arrow" href="#">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-6 col-sm-12 wow animate__zoomInRight">
+                    <div class="box row align-items-center">
+                        <div class="photo-event col-lg-3 col-sm-12">
+                            <img src="images/event-02.jpg" alt="">
+                        </div>
+                        <div class="content col-lg-8 col-sm-12">
+                            <div class="row align-items-center">
+                                <div class="title-event col-lg-4">
+                                    <p class="text-uppercase">Front end</p>
+                                    <h3>New Design Trend</h3>
+                                </div>
+                                <div class="info-event col-lg-8">
+                                    <ul class="list-unstyled d-flex justify-content-between me-lg-5 me-md-1">
+                                        <li>
+                                            <h5>Date:</h5>
+                                            <p>24 Feb 2023</p>
+                                        </li>
+                                        <li>
+                                            <h5>Duration:</h5>
+                                            <p>30 Hours</p>
+                                        </li>
+                                        <li>
+                                            <h5>Price:</h5>
+                                            <p>$320</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="arrow" href="#">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-6 col-sm-12 wow animate__zoomInLeft">
+                    <div class="box row align-items-center">
+                        <div class="photo-event col-lg-3 col-sm-12">
+                            <img src="images/event-03.jpg" alt="">
+                        </div>
+                        <div class="content col-lg-8 col-sm-12">
+                            <div class="row align-items-center">
+                                <div class="title-event col-lg-4">
+                                    <p class="text-uppercase">Full Stack</p>
+                                    <h3>Web Programming</h3>
+                                </div>
+                                <div class="info-event col-lg-8">
+                                    <ul class="list-unstyled d-flex justify-content-between me-lg-5 me-md-1">
+                                        <li>
+                                            <h5>Date:</h5>
+                                            <p>12 Mar 2023</p>
+                                        </li>
+                                        <li>
+                                            <h5>Duration:</h5>
+                                            <p>48 Hours</p>
+                                        </li>
+                                        <li>
+                                            <h5>Price:</h5>
+                                            <p>$440</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="arrow" href="#">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Events -->
+    
+    <!-- Start contact -->
+    <div class="select contactUs" id="contact">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="text-contact col-lg-5 wow fadeInLeftBig">
+                    <p class="title text-uppercase">Contact Us</p>
+                    <h2>Feel Free To Contact Us Anytime</h2>
+                    <p class="details">
+                        Thank you for choosing our templates. We provide you best CSS templates at absolutely 100% free of charge. 
+                        You may support us by sharing our website to your friends.
+                    </p>
+                    <div class="offer d-flex align-items-center justify-content-between position-relative">
+                        <p class="off text-uppercase">Off <span>50%</span></p>
+                        <div class="text-offer">
+                            <p class="text-uppercase">
+                                Valide:
+                                <span>24 April 2023</span>
+                            </p>
+                            <p>
+                                Special Offer <span>50%</span> OFF!
+                            </p>
+                        </div>
+                        <a class="arrow-event" href="#">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="Form col-lg-6  wow fadeInRightBig">
+                    <form action="">
+                        <p>
+                            <input type="text" placeholder="Your Name..." required>
+                        </p>
+                        <p>
+                            <input type="email" placeholder="Your Email..." required>
+                        </p>
+                        <p>
+                            <textarea name="Your message" id="" cols="" rows="4" placeholder="Your Message"></textarea>
+                        </p>
+                        <button class="btn Send-M rounded-pill p-3 pe-4 ps-4 mt-4" type="submit">Send Message Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End contact -->
+    
+    <!-- Start Footer -->
+    <div class="footer wow slideInDown">
+        <div class="container text-center">
+            <p class="mb-0">
+                &copy; 2036 Scholar Organization.
+                &nbsp;&nbsp;&nbsp;
+                Made by
+                <a href="https://github.com/AbrarKhalil26" target="_blank">Abrar</a>.
+                &nbsp;&nbsp;&nbsp;
+                Design: 
+                <a href="https://templatemo.com" rel="nofollow" target="_blank">TemplateMo</a>
+            </p>
+        </div>
+    </div>
+
+
+    
+    <!-- Bootstrap Js -->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="JS/all.min.js"></script>
+    <!-- JS File -->
+    <script src="JS/index.js"></script>
+    <!-- Wow JS -->
+    <script src="JS/wow.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>
